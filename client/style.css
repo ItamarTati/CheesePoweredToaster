@@ -1,0 +1,127 @@
+:root {
+  --primary-color: #007bff;
+  --primary-hover-color: #0056b3;
+  --danger-color: #dc3545;
+  --danger-hover-color: #c82333;
+  --background-color: #000000;
+  --text-color: #ffffff;
+  --white: #fff;
+  --border-radius: 5px;
+  --box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+#root {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-small);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-medium);
+}
+
+.card {
+  background-color: var(--white);
+  padding: var(--spacing-medium);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.about {
+  grid-column: 1 / 5;
+}
+
+.randomized-item {
+  grid-column: 1 / 5;
+}
+
+.randomized-item p {
+  font-weight: bold;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.add-to-list {
+  grid-column: 1 / 5;
+}
+
+.add-to-list textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: var(--spacing-medium);
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+  resize: vertical;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0 auto;
+}
+
+.display-list {
+  grid-column: 1 / 5;
+}
+
+.display-list h2 {
+  margin-top: 0;
+  margin-bottom: var(--spacing-medium);
+}
+
+.display-list div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-small) 0;
+  border-bottom: 1px solid #eee;
+}
+
+.display-list div:last-child {
+  border-bottom: none;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: none;
+  padding: var(--spacing-small) var(--spacing-medium);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+button:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.display-list button {
+  background-color: var(--danger-color);
+}
+
+.display-list button:hover {
+  background-color: var(--danger-hover-color);
+}
+
+@media (max-width: 700px) {
+  #root {
+    grid-template-columns: 1fr;
+  }
+
+  .about,
+  .randomized-item,
+  .add-to-list,
+  .display-list {
+    grid-column: 1 / 2;
+  }
+}

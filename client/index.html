@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="assets/icon.svg" />
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo Randomizer</title>
+</head>
+
+<body>
+  <div id="root">
+    <div class="about">
+      <p>
+        Is your list too long? Want something to help?
+      </p>
+      <p>
+        This todo list randomizer will store your whole todo list and provide you a random task to work on next!
+      </p>
+    </div>
+    <div class="randomized-item">
+      <button onclick="getItem()">Get random task</button>
+      <p></p>
+    </div>
+    <div class="add-to-list">
+      <form>
+        <label for="list-entry">Enter todo list (new line separated)</label>
+        <textarea id="list-entry"></textarea>
+        <button type="submit" onclick="addToList(event)">Add</button>
+      </form>
+    </div>
+    <div class="display-list">
+      <h2>To Do List:</h2>
+    </div>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
