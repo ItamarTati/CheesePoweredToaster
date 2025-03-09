@@ -1,2 +1,15 @@
-com/example/service/impl/RandomNumberServiceImpl.class
+com/example/config/CommandConfig.class
+com/example/util/InputValidator.class
+com/example/model/Command.class
+com/example/command/RollHighestTwoCommand.class
+com/example/service/impl/DiceServiceImpl.class
+com/example/service/impl/ParseCommandServiceImpl.class
+com/example/service/ParseCommandService.class
+com/example/command/CommandHandler.class
+com/example/command/HelpCommand.class
 com/example/service/RandomNumberService.class
+com/example/exception/InvalidInputException.class
+com/example/command/RollDiceCommand.class
+com/example/service/impl/RandomNumberServiceImpl.class
+com/example/service/DiceService.class
+com/example/SpringBootConsoleApplication.class

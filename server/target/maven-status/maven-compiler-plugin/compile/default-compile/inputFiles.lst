@@ -1,5 +1,15 @@
 /Users/elkedemaerschalk/jagex assessment/server/src/main/java/com/example/service/impl/RandomNumberServiceImpl.java
+/Users/elkedemaerschalk/jagex assessment/server/src/main/java/com/example/exception/InvalidInputException.java
 /Users/elkedemaerschalk/jagex assessment/server/src/main/java/com/example/SpringBootConsoleApplication.java
+/Users/elkedemaerschalk/jagex assessment/server/src/main/java/com/example/config/CommandConfig.java
 /Users/elkedemaerschalk/jagex assessment/server/src/main/java/com/example/service/RandomNumberService.java
 /Users/elkedemaerschalk/jagex assessment/server/src/main/java/com/example/service/impl/ParseCommandServiceImpl.java
+/Users/elkedemaerschalk/jagex assessment/server/src/main/java/com/example/model/Command.java
+/Users/elkedemaerschalk/jagex assessment/server/src/main/java/com/example/command/HelpCommand.java
+/Users/elkedemaerschalk/jagex assessment/server/src/main/java/com/example/service/DiceService.java
+/Users/elkedemaerschalk/jagex assessment/server/src/main/java/com/example/command/CommandHandler.java
+/Users/elkedemaerschalk/jagex assessment/server/src/main/java/com/example/util/InputValidator.java
+/Users/elkedemaerschalk/jagex assessment/server/src/main/java/com/example/command/RollDiceCommand.java
+/Users/elkedemaerschalk/jagex assessment/server/src/main/java/com/example/command/RollHighestTwoCommand.java
+/Users/elkedemaerschalk/jagex assessment/server/src/main/java/com/example/service/impl/DiceServiceImpl.java
 /Users/elkedemaerschalk/jagex assessment/server/src/main/java/com/example/service/ParseCommandService.java

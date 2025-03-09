@@ -1,4 +1,7 @@
 package com.example.command;
 
-public class CommandHandler {
+import com.example.exception.InvalidInputException;
+
+public interface CommandHandler {
+    void execute(String[] args) throws InvalidInputException;
 }
