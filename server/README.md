@@ -1,3 +1,5 @@
-To further improve the application, unit tests should be added to ensure the core functionality works as expected. This includes testing random number generation, command parsing, and error handling for invalid inputs. Proper test coverage will help catch edge cases and ensure reliability.
+To improve the application, adding unit tests would be a valuable step to ensure core functionality works as intended. This includes testing random number generation, command parsing, and handling invalid inputs. Strong test coverage will help catch edge cases and improve reliability.
 
-The code can be enhanced by improving error handling and input validation. For example, providing clearer error messages and ensuring inputs like dice size and count are valid. Additionally, replacing `System.out.println` with a logging framework like SLF4J would make the application more maintainable and professional.
+The application’s error handling can also be enhanced by providing clearer error messages and validating inputs like dice size and count to prevent unexpected behavior. Additionally, replacing System.out.println with a logging framework like SLF4J would improve maintainability and give better control over log levels.
+
+Introducing features such as an exit command for ending the session and improved error messages for unsupported command formats would further enhance the user experience. These updates would make the tool more intuitive and professional.
